@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("C:/Users/Dell/PycharmProjects/ML_Project_New/dataset/clean_target_encode_M2.csv")
+df = pd.read_csv(r"C:\Users\ganta vivek reddy\Videos\placement_prediction\dataset\placement_predict_50K_Raw.csv")
 
 
 # Create copy
@@ -190,7 +190,7 @@ print(final_output.isnull().sum())
 
 
 final_output.to_csv(
-   "C:/Users/Dell/PycharmProjects/ML_Project_New/dataset/clean_embedded_encode_M2.csv",
+   r"C:\Users\ganta vivek reddy\Videos\placement_prediction\dataset/clean_embedded_encode_M2.csv",
    index=False
 )
 
